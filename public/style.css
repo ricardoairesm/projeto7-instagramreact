@@ -3,9 +3,6 @@
   }
   
 
-  .vermelho{
-    color:red;
-  }
   
   body {
     background-color: #FAFAFA;
@@ -395,6 +392,11 @@
       position: relative;
       top: 4px;
     }
+  }
+  Heart{
+    margin-left: 5px;
+    font-size: 200px;
+    
   }
   
   ion-icon {

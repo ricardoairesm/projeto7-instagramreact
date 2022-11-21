@@ -1,4 +1,6 @@
 import React from "react";
+import { Heart } from 'react-ionicons'
+
 
 
 export default function Posts() {
@@ -42,7 +44,7 @@ export default function Posts() {
             <div className="acoes">
               <div>
                 
-                <ion-icon  name={curtida} data-test="like-post"
+                <ion-icon name={curtida} data-test="like-post"
                   onClick={() => {
                     if (curtida == "heart-outline") {
                       setCurtida("heart-sharp");
