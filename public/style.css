@@ -2,6 +2,11 @@
     box-sizing: border-box;
   }
   
+
+  ion-icon heart-sharp{
+    color:red;
+  }
+  
   body {
     background-color: #FAFAFA;
     margin: 54px 0 0;
