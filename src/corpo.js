@@ -1,5 +1,5 @@
 
-import Post from './post'
+import Posts from './post'
 import Stories from './stories'
 import Sidebar from './sidebar'
 
@@ -8,7 +8,7 @@ export default function Corpo() {
         <div className='corpo'>
             <div className='esquerda'>
                 <Stories/>
-                <Post/>
+                <Posts/>
             </div>
             <Sidebar/>
         </div>
